@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.logo {
+    margin-top: 20px;
+}
+.loginAndRegBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+}
+
+/* 标题 */
+.title-box {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* 登录 注册页面 */
+.login-form ,
+.reg-form {
+    padding: 0 30px;
+}
+
+.reglink,
+.loginlink {
+    text-align: right;
+}
+
+
+/* 字体图标 */
+.layui-form-item {
+    position: relative;
+}
+.layui-input {
+    padding: 0 35px;
+}
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
